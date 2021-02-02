@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    font-size: medium;
+    background-color: blue;
+
+}
+.header-text{
+    background-color: brown;
+}
+.ellipsis{
+    margin-left: auto;
+    background: chartreuse;
+}
