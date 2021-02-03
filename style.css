@@ -1,20 +1,61 @@
+
+.main-container{
+max-width: 400px;
+margin: auto;
+
+}
+
 .header{
     display: flex;
-    /* font-size: medium; */
+    padding: 0 3px;
 }
 .html-logo{
     display: flex;
     align-items: center;
-    background-color: aqua;
+     font-size: 2em;
+    padding-right: 0.5em;
 }
 
-}
 .header-text{
     display: flex;
-    align-items: flex-end;
-    font-size: large;
+    font-size: medium;
 }
 .header div:last-child{
+    display: flex;
+    align-items: center;
     margin-left: auto;
-    background: chartreuse;
+}
+
+.responsive{
+    display: flex;
+    align-items: center;
+width: 100%;
+max-width: 400px;
+height: auto;
+margin: 0 auto;
+}
+
+.icons{
+    display: flex;
+}
+i{
+    margin:3px  ;
+    padding: 0 3px;
+}
+
+.fa-bookmark{
+    margin-left: auto;
+}
+
+.far{
+    font-size: 2em;
+}
+p{
+      text-align: justify;
+     text-justify: inter-word;
+     padding-right: 0.5em;
+}
+
+*{
+    font-family: "Lato";
 }
